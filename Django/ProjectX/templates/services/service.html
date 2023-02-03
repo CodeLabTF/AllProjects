@@ -1,0 +1,87 @@
+{% extends 'base/home.html' %}
+
+{% block title  %} Services {% endblock%}
+
+
+{% block content%}
+
+<header>
+
+
+  {% load static %}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" type="text/css"  charset="utf-8">
+
+
+
+
+  <title> Services Title </title>
+  Services, header text
+
+</header> 
+<body> 
+
+
+  
+    
+
+  <style type="text/css" >
+.item{ 
+  transition: 5s eas-in-out;
+}
+  .item:hover{
+    filter: brightness(50%);
+  }
+</style>
+
+
+
+<div class="container-fluid">
+<div class="row mt-4">
+  <div class="item col-sm-6 col-md-4 mb-3">
+    <a href="{% static 'pilt1.jpg'  %}" class="fancybox" data-fancybox="gallery">
+      <img src="{% static 'pilt1.jpg'  %}" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="item col-sm-6 col-md-4 mb-3">
+    <a href="https://images2.imgbox.com/a9/e9/BkKbOyOl_o.jpg" class="fancybox" data-fancybox="gallery">
+      <img src="https://images2.imgbox.com/a9/e9/BkKbOyOl_o.jpg" width="100%" height="100%">
+    </a>
+  </div>
+<div class="item col-sm-6 col-md-4 mb-3">
+    <a href="https://images2.imgbox.com/63/c9/t6BrNSkU_o.jpg" class="fancybox" data-fancybox="gallery">
+      <img src="https://images2.imgbox.com/63/c9/t6BrNSkU_o.jpg" width="100%" height="100%">
+    </a>
+  </div>
+<div class="item col-sm-6 col-md-4 mb-3">
+    <a href="https://images2.imgbox.com/fe/f9/8Nnoxt9q_o.jpg" class="fancybox" data-fancybox="gallery">
+      <img src="https://images2.imgbox.com/fe/f9/8Nnoxt9q_o.jpg" width="100%" height="100%">
+    </a>
+  </div>
+<div class="item col-sm-6 col-md-4 mb-3">
+    <a href="https://images2.imgbox.com/ed/06/v3i1Y2Q1_o.jpg" class="fancybox" data-fancybox="gallery">
+      <img src="https://images2.imgbox.com/ed/06/v3i1Y2Q1_o.jpg" width="100%" height="100%">
+    </a>
+  </div>
+<div class="item col-sm-6 col-md-4 mb-3">
+    <a href="https://images2.imgbox.com/f9/d6/kKCTKRvh_o.jpg" class="fancybox" data-fancybox="gallery">
+      <img src="https://images2.imgbox.com/f9/d6/kKCTKRvh_o.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+</div>
+  
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+
+  </body>
+
+
+{% endblock%}

@@ -1,0 +1,39 @@
+footer {
+  height:20px;
+}
+body {
+
+ background-color: #fdfdf0;
+}
+
+.navy_blue {
+    background-color: #3065b0; 
+    color: grey; 
+  }
+
+.portrait {
+
+   width: 50%;
+}
+
+ 
+.emailin {
+  width: 50%;
+  border:   ;
+  display: flex;
+  
+  }
+
+.sign_up {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.sign_up_text {
+   margin-right: 20px;
+   margin-top: 5px;
+}
+
+
+
