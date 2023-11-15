@@ -2,7 +2,7 @@
 while True:
     print("Whats your name?")
     name = input()
-    if name != 'Konserv':
+    if name != 'admin':
         continue
     print("Hello Konserv. Whats the password?")
     password = input()
