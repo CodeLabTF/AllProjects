@@ -4,7 +4,7 @@ while True:
     name = input()
     if name != 'admin':
         continue
-    print("Hello Konserv. Whats the password?")
+    print("Hello. Whats the password?")
     password = input()
     if password == 'swordfish':
         break
